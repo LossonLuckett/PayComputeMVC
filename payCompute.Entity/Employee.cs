@@ -18,6 +18,7 @@ namespace payCompute.Entity
         public string LastName { get; set; }
         public string FullName { get; set; }
         public string ImageUrl { get; set; }
+        public string Gender { get; set; }
         public DateTime DOB { get; set; }
         public DateTime DateJoined { get; set; }
         public string Designation { get; set; }
