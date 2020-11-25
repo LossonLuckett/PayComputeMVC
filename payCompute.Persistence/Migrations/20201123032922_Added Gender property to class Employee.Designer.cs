@@ -277,7 +277,7 @@ namespace payCompute.Persistence.Migrations
                         .HasColumnType("nvarchar(50)")
                         .HasMaxLength(50);
 
-                    b.Property<string>("NationalInsuranceNo")
+                    b.Property<string>("SocialSecurityNo")
                         .IsRequired()
                         .HasColumnType("nvarchar(50)")
                         .HasMaxLength(50);

@@ -62,7 +62,7 @@ namespace payCompute.Persistence.Migrations
                     DateJoined = table.Column<DateTime>(nullable: false),
                     Designation = table.Column<string>(nullable: true),
                     Email = table.Column<string>(nullable: true),
-                    NationalInsuranceNo = table.Column<string>(maxLength: 50, nullable: false),
+                    SocialSecurityNo = table.Column<string>(maxLength: 50, nullable: false),
                     PaymentMethod = table.Column<int>(nullable: false),
                     StudentLoan = table.Column<int>(nullable: false),
                     UnionMember = table.Column<int>(nullable: false),
